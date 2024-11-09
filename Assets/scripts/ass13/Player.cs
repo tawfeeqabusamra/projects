@@ -8,7 +8,18 @@ public class Player
     public string playerName;
     public int health;
     public static int playerCount = 0;
+    private string v1;
+    private int v2;
 
+    public Player(string v1, int v2)
+    {
+        this.v1 = v1;
+        this.v2 = v2;
+    }
+
+    public Player()
+    {
+    }
 
     public void InitializePlayer(string name, int initialHealth)
     {
