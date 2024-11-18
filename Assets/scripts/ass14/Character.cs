@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Assignment18;
 using UnityEngine;
 
 public class Character
@@ -31,4 +33,8 @@ public class Character
         }
     }
 
+    public static implicit operator Character(Soldier v)
+    {
+        throw new NotImplementedException();
+    }
 }
