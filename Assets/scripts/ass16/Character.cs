@@ -30,7 +30,7 @@ namespace Assignment18
         {
             get { return health; }
             // Mathf.Clamp(value, min, max);  أداة تُستخدم لنحديد قيمة متغيرة داخل حدود معينة
-            set { Mathf.Clamp(health, 0, 100); }
+            set { health = Mathf.Clamp(value, 0, 100); }
         }
         public virtual void DisplayInfo()
         {
@@ -40,7 +40,7 @@ namespace Assignment18
         }
         private void ApplyDamage(int damage, Character target)
         {
-            target.health -= damage;
+            target.Health -= damage;
         }
         public void Attack(int damage, Character target)
         {
