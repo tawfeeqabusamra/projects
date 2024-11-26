@@ -3,6 +3,7 @@
 /Assembly-CSharp.csproj
 /Library
 /Logs
+*.meta
 /Packages
 /projects.sln
 /ProjectSettings
