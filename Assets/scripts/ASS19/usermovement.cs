@@ -9,7 +9,7 @@ public class usermovement : MonoBehaviour
     {
 
     }
-    float y = 0;
+    
     float moveSpeed = 5f;
     void Update()
     {
