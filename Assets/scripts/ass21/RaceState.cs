@@ -1,14 +1,15 @@
-namespace ass21{
-
-
-
-public enum RaceState
+namespace ass21
 {
-    Start,
-    Accelerate,
-    Turn,
-    Crash,
-    Finish,
 
-}
+
+    [System.Serializable]
+    public enum RaceState
+    {
+        Start,
+        Accelerate,
+        Turn,
+        Crash,
+        Finish,
+
+    }
 }

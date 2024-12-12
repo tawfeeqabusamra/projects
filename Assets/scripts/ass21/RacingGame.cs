@@ -12,16 +12,16 @@ namespace ass21
             {
                 case RaceState.Start:
                     Debug.Log("The race is about to begin. Get ready!");
-                    transform.position+=Vector3.forward*Time.deltaTime;
+                    transform.position += Vector3.forward * Time.deltaTime;
                     break;
                 case RaceState.Accelerate:
                     Debug.Log("You press the gas pedal. The car speeds up!");
-                    transform.position+=Vector3.forward*Time.deltaTime*2;
+                    transform.position += Vector3.forward * Time.deltaTime * 2;
                     break;
 
                 case RaceState.Turn:
                     Debug.Log("You approach a sharp turn. Be careful not to crash!");
-                    transform.position+=Vector3.right*Time.deltaTime;
+                    transform.position += Vector3.right * Time.deltaTime;
                     break;
 
                 case RaceState.Crash:
@@ -38,6 +38,12 @@ namespace ass21
             }
 
 
+
+        }
+        [ExecuteAlways]
+        void OnValidate()
+        {
+            SimulateRace();
         }
         void Start()
         {
@@ -48,6 +54,7 @@ namespace ass21
         void Update()
         {
             SimulateRace();
+
 
         }
     }
