@@ -10,20 +10,20 @@ public class PopupBook : MonoBehaviour
     public Transform booklid1;
     public Transform bookLid2;
     public Transform popupObject;
-    public Transform bookLid; 
-        public float popupScaleSpeed = 2f;
-    public Transform[] popupElements; 
-                                      // public Vector3[] targetPositions; 
+    public Transform bookLid;
+    public float popupScaleSpeed = 2f;
+    public Transform[] popupElements;
+    // public Vector3[] targetPositions; 
     // public Vector3 finalScale = Vector3.one;   
-      bool isOpen = false; 
-    float bookProgress = 0f;     float popupProgress = 0f;
+    bool isOpen = false;
+    float bookProgress = 0f; float popupProgress = 0f;
     void Start()
     {
         bookLid.position = floor1.position;
 
         foreach (var element in popupElements)
         {
-            element.localScale = Vector3.zero; 
+            element.localScale = Vector3.zero;
         }
 
 
