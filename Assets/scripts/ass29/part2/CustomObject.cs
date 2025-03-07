@@ -28,7 +28,8 @@ namespace ass29
             }
             else return false;
         }
-        public static bool operator ==(CustomObject obj1, CustomObject obj2)
+        public static bool operator ==(
+            CustomObject obj1, CustomObject obj2)
         {
             if (ReferenceEquals(obj1, obj2)) return true;
             if (obj1 is null || obj2 is null) return false;
