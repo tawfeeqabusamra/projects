@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+
 using UnityEngine;
 
 public class RigidBodyCharacterController : MonoBehaviour
@@ -44,7 +44,6 @@ public class RigidBodyCharacterController : MonoBehaviour
         allowJump = Physics.Raycast(transform.position, Vector3.down, out raycastHit, rayLength);
     }
 
-
     void FixedUpdate()
     {
         Vector3 move = new Vector3(xInput, 0, yInput).normalized * sensitive;
@@ -58,5 +57,6 @@ public class RigidBodyCharacterController : MonoBehaviour
 
         }
     }
+  
 
 }

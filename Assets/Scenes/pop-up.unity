@@ -24880,21 +24880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea2fc203195e9a34682635a9a586859f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftPage1: {fileID: 232306362}
-  rightPage1: {fileID: 955673212}
-  leftPage: {fileID: 389282654}
-  rightPage: {fileID: 592005459}
-  objectsToMove:
-  - {fileID: 1137640112}
-  - {fileID: 1646438249}
-  objectStartPositions: []
-  objectFinalScale: {x: 1, y: 1, z: 1}
-  openingSpeed: 90
-  movementSpeed: 1
-  scalingSpeed: 1
-  isOpening: 0
-  currentAngle: 0
-  maxAngle: 90
 --- !u!1 &549137142
 GameObject:
   m_ObjectHideFlags: 0
@@ -58305,8 +58290,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229279842}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.2024474, y: 0.67882276, z: -0.20330383, w: -0.6759307}
-  m_LocalPosition: {x: 29.579155, y: 26.44859, z: 10.202281}
+  m_LocalRotation: {x: -0.13399442, y: 0.69168866, z: -0.13295086, w: -0.69709146}
+  m_LocalPosition: {x: 40.848454, y: 25.088455, z: 10.293475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
